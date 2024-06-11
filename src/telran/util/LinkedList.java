@@ -7,7 +7,7 @@ import java.util.Objects;
 public class LinkedList<T> extends AbstractCollection<T> implements List<T> {
 	Node<T> head;
 	Node<T> tail;
- private static class Node<T> {
+ public static class Node<T> {
 	 T data;
 	 Node<T> prev;
 	 Node<T> next;
